@@ -1,0 +1,54 @@
+{
+  "name": "webpack_ht",
+  "version": "1.0.0",
+  "description": "webpack configuration home task",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --config webpack.config.dev.js",
+    "prod": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
+    "start": "cross-env NODE_ENV=development webpack serve --mode development"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandraGres/webpack_ht.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Oleksandra Hresniuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandraGres/webpack_ht/issues"
+  },
+  "homepage": "https://github.com/AlexandraGres/webpack_ht#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
+    "eslint-loader": "^4.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "prettier": "2.3.2",
+    "pug": "^3.0.2",
+    "pug-loader": "^2.4.0",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "terser-webpack-plugin": "^5.1.4",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
