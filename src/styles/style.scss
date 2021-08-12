@@ -4,6 +4,7 @@
 @import "../pug/header/menu/menu.scss";
 @import "../pug/pages/block-header/block-header.scss";
 @import "../pug/pages/about-block/about-block.scss";
+@import "../pug/footer/footer.scss";
 
 
 * {
@@ -35,6 +36,7 @@ a {
 
 .container {  
   max-width: 1200px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 0 15px;
