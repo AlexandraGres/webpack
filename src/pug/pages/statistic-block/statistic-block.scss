@@ -1,0 +1,32 @@
+.statistic-block {  
+  margin-top: 50px;
+  background: #95e1d3;
+  color: #fff;
+}
+
+.statistic-block__list {
+  height: 250px;
+  display: flex;
+  border-right: solid 1px #fff;
+}
+
+.statistic-block__list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border-left: solid 1px #fff;
+}
+
+.statistic-block__number {
+  font-family: 'Montserrat-bold';
+  font-size: 72px;
+  line-height: 1.2;
+}
+
+.statistic-block__description {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 14px;
+}

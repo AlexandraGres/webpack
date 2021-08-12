@@ -1,0 +1,34 @@
+.block-services {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.services-card {
+  display: flex;
+  padding: 50px 30px;
+}
+
+.block-service__devider {
+  width: 100%;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+.services-card__img {
+  display: block;
+  width: 60px;
+}
+
+.services-card__content {
+  width: 275px;
+}
+
+.services-card__content__title {
+  color: #333;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
