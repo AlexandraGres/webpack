@@ -1,7 +1,7 @@
 @import "~normalize.css";
 @import "../pug/header/header.scss";
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import "../pug/header/menu/menu.scss";
+@import "fonts.scss"; 
 
 * {
   margin: 0;
@@ -19,6 +19,10 @@ body {
 a {
   color: #333;
   text-decoration: none;
+}
+
+.k-font {
+  font-family: 'Kaushan Script', cursive;
 }
 
 .container {  

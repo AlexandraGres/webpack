@@ -32,6 +32,10 @@ module.exports = {
         loader: 'pug-loader'
       },
       {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+      {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader']
       },
@@ -40,12 +44,8 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
       },
       {
-        test: /\.(png|jpg|svg|gif)$/,
-        use: ['file-loader']
-      },
-      {
-        test: /\.(ttf|woff|woff2|eot)$/,
-        use: ['file-loader']
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
       },
       {
         test: /\.js$/,
