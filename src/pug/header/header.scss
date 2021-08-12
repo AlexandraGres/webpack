@@ -33,3 +33,36 @@
   font-size: 150px;
   line-height: 1;
 }
+
+@media screen and (max-width: 1300px) {
+  .index-page .header-inner {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .welcome-block__title-m {
+    font-size: 64px;
+  }
+  .welcome-block__title-l {
+    font-size: 108px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .welcome-block__title-m {
+    font-size: 48px;
+  }
+  .welcome-block__title-l {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .welcome-block__title-m {
+    font-size: 36px;
+  }
+  .welcome-block__title-l {
+    font-size: 48px;
+  }
+}

@@ -1,16 +1,18 @@
 .team-block {
   display: flex;
   justify-content: space-between;
-  padding: 90px 0;
+  padding: 90px 15px;
 }
 
 .team-card {
   position: relative;
   text-align: center;
+  width: 33%;
 }
 
 .team-card__img {
   display: block;
+  width: 100%;
 }
 
 .user-name {

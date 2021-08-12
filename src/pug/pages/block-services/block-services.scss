@@ -8,6 +8,7 @@
 .services-card {
   display: flex;
   padding: 50px 30px;
+  width: 28%;
 }
 
 .block-service__devider {
@@ -18,17 +19,43 @@
 
 .services-card__img {
   display: block;
-  width: 60px;
-}
-
-.services-card__content {
-  width: 275px;
+  width: 30%;
 }
 
 .services-card__content__title {
   color: #333;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: normal;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 1125px) {
+  .services-card {
+    width: 40%;
+    padding: 30px 15px;
+  }
+
+  .block-services {
+    justify-content: space-around;
+  }
+
+  .block-service__devider {
+    display: none;
+  }
+
+  .services-card__img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services-card {
+    width: 80%;
+    padding: 15px;
+  }
+  .services-card__img {
+    width: auto;
+    margin-right: 15px;
+  }
 }
