@@ -1,8 +1,11 @@
 .header {
   background: url(../pug/header/assets/bg.png) repeat-x;
-  background-size: contain;
   color: #fff;
 } 
+
+.index-page .header {
+  background-size: contain;
+}
 
 .header-inner {
   padding: 20px 0;
@@ -17,10 +20,10 @@
 
 .welcome-block {
   text-align: center;
-  padding-top: 50px;
 }
 
 .welcome-block__title-m {
+  padding-top: 50px;
   font-size: 72px;
 }
 

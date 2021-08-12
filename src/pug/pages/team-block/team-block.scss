@@ -1,0 +1,25 @@
+.team-block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 90px;
+}
+
+.team-card {
+  position: relative;
+  text-align: center;
+}
+
+.team-card__img {
+  display: block;
+}
+
+.user-name {
+  margin-top: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+}
+
+.user-title {
+  font-style: italic;
+}
+

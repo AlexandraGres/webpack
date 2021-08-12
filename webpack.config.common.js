@@ -15,10 +15,11 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './pug/pages/index.pug',
-      minify: {
-        collapseWhitespace: isProd
-      }
+      template: './pug/pages/index.pug'      
+    }),
+    new HtmlWebpackPlugin({
+      template: './pug/pages/team.pug',
+      filename: 'team.html'
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({

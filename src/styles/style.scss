@@ -4,6 +4,8 @@
 @import "../pug/header/menu/menu.scss";
 @import "../pug/pages/block-header/block-header.scss";
 @import "../pug/pages/about-block/about-block.scss";
+@import "../pug/pages/team-block/team-block.scss";
+@import "../pug/pages/statistic-block/statistic-block.scss";
 @import "../pug/footer/footer.scss";
 
 
@@ -31,7 +33,7 @@ a {
 }
 
 .m-font {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat-bold', sans-serif;
 }
 
 .container {  

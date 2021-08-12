@@ -1,15 +1,14 @@
 extends ../layout/main
 
 block variables 
-  - var pageClass = 'index-page'
+  - var pageClass = 'team-page'
 
 block content 
   section 
     .container
       .block-header
-        h3.block-header__title-s.k-font What we do 
-        h2.block-header__title-l.m-font Story about us 
+        h3.block-header__title-s.k-font Who we are 
+        h2.block-header__title-l.m-font Meet our team
         .devider
         p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quasi, esse adipisci voluptas et nulla animi saepe, quis voluptates, dolor fuga quas illo nisi tempore excepturi iusto dignissimos eius dolore!
-      include ./about-block/about-block
-      include ./statistic-block/statistic-block
+      include ./team-block/team-block
