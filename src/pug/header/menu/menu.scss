@@ -1,5 +1,5 @@
 .logo {
-  color: #fff;
+  color: $white;
   font-size: 30px;
   font-family: 'Montserrat-bold';
 } 
@@ -21,13 +21,13 @@
 }
 
 .menu-item .active {
-  color: #fce38a;
-  border-bottom: solid 3px #fce38a;
+  color: $yellow;
+  border-bottom: solid 3px $yellow;
 }
 
 .menu-item__link {
   font-family: 'Montserrat-bold';
-  color: #fff;
+  color: $white;
   text-transform: uppercase;
   font-size: 14px;
   padding-bottom: 10px;

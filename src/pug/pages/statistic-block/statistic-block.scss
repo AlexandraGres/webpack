@@ -1,14 +1,14 @@
 .statistic-block {  
   margin-top: 50px;
-  background: #95e1d3;
-  color: #fff;
+  background: $light-green;
+  color: $white;
   text-align: center;
 }
 
 .statistic-block__list {
   height: 250px;
   display: flex;
-  border-right: solid 1px #fff;
+  border-right: $white-border;
 }
 
 .statistic-block__list-item {
@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   width: 20%;
-  border-left: solid 1px #fff;
+  border-left: $white-border;
   padding: 15px;
 }
 
@@ -46,6 +46,6 @@
 
   .statistic-block__list-item {
     width: 100%;
-    border-bottom: dotted 1px #fff;
+    border-bottom: dotted 1px $white;
   }
 }

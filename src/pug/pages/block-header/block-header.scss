@@ -7,7 +7,7 @@
 
 .block-header__title-s,
 .block-header__title-l {
-  color: #333;
+  color: $dark-gray;
 }
 .block-header__title-s {  
   font-size: 24px;
@@ -20,7 +20,7 @@
 
 .devider {
   margin: 20px auto 30px;
-  background: #f38181;
+  background: $peach;
   width: 60px;
   height: 3px;
 }

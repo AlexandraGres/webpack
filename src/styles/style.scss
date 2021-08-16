@@ -1,5 +1,6 @@
 @import "~normalize.css";
 @import "fonts.scss"; 
+@import "variables.scss";
 @import "../pug/header/header.scss";
 @import "../pug/header/menu/menu.scss";
 @import "../pug/pages/block-header/block-header.scss";
@@ -16,15 +17,15 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font: 100% $font-stack;
   font-size: 15px;
   line-height: 1.6;
-  color: #999999;
-  background: #fff;
+  color: $primary-color;
+  background: $white;
 }
 
 a {
-  color: #333;
+  color: $dark-gray;
   text-decoration: none;
 }
 
