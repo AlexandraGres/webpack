@@ -3,19 +3,20 @@
   margin: 0 auto;
   padding: 90px 15px 0;
   text-align: center;
-}
 
-.block-header__title-s,
-.block-header__title-l {
-  color: $dark-gray;
-}
-.block-header__title-s {  
-  font-size: 24px;
-}
+  &__title-s,
+  &__title-l {
+    color: $dark-gray;
+  }
+  
+  &__title-s {
+    font-size: 24px;
+  }
 
-.block-header__title-l {
-  font-size: 30px;
-  text-transform: uppercase;
+  &__title-l {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
 }
 
 .devider {

@@ -2,43 +2,43 @@
   display: flex;
   justify-content: space-between;
   padding: 90px 0;
-}
 
-.about-card {
-  position: relative;
-  width: 30%;
-  margin: 0 15px;
-}
+  &__card {
+    position: relative;
+    width: 30%;
+    margin: 0 15px;
 
-.about-card-hover {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient( 90deg, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.9) 100%); 
-  justify-content: center;
-  align-items: center;
-  color: $white;
-  text-transform: uppercase;
-  font-size: 18px;
-  text-align: center;
-  transition: 0.5s;
-  opacity: 0;
-}
+    &__hover {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+      justify-content: center;
+      align-items: center;
+      color: $white;
+      text-transform: uppercase;
+      font-size: 18px;
+      text-align: center;
+      transition: 0.5s;
+      opacity: 0;
+    }
 
-.about-card-hover:hover {
-  opacity: 1;
-}
+    &__hover:hover {
+      opacity: 1;
+    }
 
-.about-card:hover .about-card-hover {
-  display: flex;  
-}
+    &__img {
+      display: block;
+      width: 100%;
+    }
+  }
 
-.about-card__img {
-  display: block;
-  width: 100%;
+  &__card:hover .about-block__card__hover {
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -47,11 +47,8 @@
     flex-direction: column;
     align-items: center;
   }
-  .about-card {
+  .about-block__card {
     width: 50%;
     margin-bottom: 20px;
   }
 }
-
-
-

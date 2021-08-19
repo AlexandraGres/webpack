@@ -3,38 +3,38 @@
   background: $light-green;
   color: $white;
   text-align: center;
-}
 
-.statistic-block__list {
-  height: 250px;
-  display: flex;
-  border-right: $white-border;
-}
+  &__list {
+    height: 250px;
+    display: flex;
+    border-right: $white-border;
 
-.statistic-block__list-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-  border-left: $white-border;
-  padding: 15px;
-}
+    &__list-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 20%;
+      border-left: $white-border;
+      padding: 15px;
 
-.statistic-block__number {
-  font-family: 'Montserrat-bold';
-  font-size: 72px;
-  line-height: 1.2;
-}
-
-.statistic-block__description {
-  font-family: 'Montserrat';
-  text-transform: uppercase;
-  font-size: 14px;
+      &__number {
+        font-family: 'Montserrat-bold';
+        font-size: 72px;
+        line-height: 1.2;
+      }
+      
+      &__description {
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 760px) {
-  .statistic-block__number {
+  .statistic-block__list__list-item__number {
     font-size: 48px;
   }
 }
@@ -44,7 +44,7 @@
     height: auto;
   }
 
-  .statistic-block__list-item {
+  .statistic-block__list__list-item {
     width: 100%;
     border-bottom: dotted 1px $white;
   }
