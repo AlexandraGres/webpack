@@ -22,6 +22,16 @@ module.exports = merge(common, {
       template: './pug/pages/team.pug',
       filename: 'team.html',
       minify: false
+    }),
+    new HtmlWebpackPlugin({
+      template: './pug/pages/grid-page/grid.pug',
+      filename: 'grid.html',
+      minify: false
+    }),
+    new HtmlWebpackPlugin({
+      template: './pug/pages/flexbox-page/flexbox.pug',
+      filename: 'flexbox.html',
+      minify: false
     })
   ],
   module: {

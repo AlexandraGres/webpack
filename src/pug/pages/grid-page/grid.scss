@@ -1,0 +1,173 @@
+.grid {
+  max-width: 1200px;
+  width: 100%;
+  margin: 15px auto;
+  display: grid;
+  grid-gap: 15px;
+
+  &__block1 {
+    background: rgb(255, 243, 178);
+    height: 270px;
+  }
+
+  &__block2 {
+    background: rgb(255, 243, 178);
+    height: 270px;
+  }
+
+  &__block3 {
+    background: rgb(178, 255, 188);
+    height: 185px;
+  }
+
+  &__block4 {
+    background: rgb(178, 255, 188);
+    height: 185px;
+  }
+
+  &__block5 {
+    background: rgb(178, 255, 188);
+    height: 185px;
+  }
+
+  &__block6 {
+    background: rgb(178, 252, 255);
+    height: 485px;
+  }
+
+  &__block7 {
+    background: rgb(178, 202, 255);
+    height: 185px;
+  }
+
+  &__block8 {
+    background: rgb(178, 202, 255);
+    height: 185px;
+  }
+
+  &__block9 {
+    background: rgb(178, 202, 255);
+    height: 185px;
+  }
+
+  &__block10 {
+    background: rgb(211, 178, 255);
+    height: 270px;
+  }
+
+  &__block11 {
+    background: rgb(211, 178, 255);
+    height: 270px;
+  }
+
+  &__block12 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 150px;
+  }
+
+  &__block13 {
+    text-align: center;
+    height: 70px;
+
+    & h2 {
+      text-transform: uppercase;
+      font-size: 48px;
+    }
+  }
+
+  &__block14 {
+    background: rgb(255, 178, 191);
+    height: 450px;
+  }
+
+  &__block15 {
+    background: rgb(255, 178, 191);
+    height: 450px;
+  }
+
+  &__block16 {
+    background: rgb(255, 178, 191);
+    height: 450px;
+  }
+
+  &__block17 {
+    background: rgb(255, 178, 191);
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .grid {
+    grid-template-columns: repeat(12, 1fr);
+
+    &__block1 {
+      grid-area: 1 / 1 / 2 / 7;
+    }
+
+    &__block2 {
+      grid-area: 1 / 7 / 2 / 13;
+    }
+
+    &__block3 {
+      grid-area: 2 / 1 / 3 / 5;
+    }
+
+    &__block4 {
+      grid-area: 2 / 5 / 3 / 9;
+    }
+
+    &__block5 {
+      grid-area: 2 / 9 / 3 / 13;
+    }
+
+    &__block6 {
+      grid-area: 3 / 1 / 4 / 13;
+    }
+
+    &__block7 {
+      grid-area: 4 / 1 / 5 / 5;
+    }
+
+    &__block8 {
+      grid-area: 4 / 5 / 5 / 9;
+    }
+
+    &__block9 {
+      grid-area: 4 / 9 / 5 / 13;
+    }
+
+    &__block10 {
+      grid-area: 5 / 1 / 6 / 7;
+    }
+
+    &__block11 {
+      grid-area: 5 / 7 / 6 / 13;
+    }
+
+    &__block12 {
+      grid-area: 6 / 10 / 7 / 13;
+    }
+
+    &__block13 {
+      grid-area: 7 / 1 / 8 / 13;
+    }
+
+    &__block14 {
+      grid-area: 8 / 1 / 9 / 4;
+    }
+
+    &__block15 {
+      grid-area: 8 / 4 / 9 / 7;
+    }
+
+    &__block16 {
+      grid-area: 8 / 7 / 9 / 10;
+    }
+
+    &__block17 {
+      grid-area: 8 / 10 / 9 / 13;
+    }
+  }
+}

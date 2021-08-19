@@ -22,5 +22,19 @@ module.exports = merge(common, {
         collapseWhitespace: true
       }
     }),
+    new HtmlWebpackPlugin({
+      template: './pug/pages/grid-page/grid.pug',
+      filename: 'grid.html',
+      minify: {
+        collapseWhitespace: true
+      }
+    }),
+    new HtmlWebpackPlugin({
+      template: './pug/pages/flexbox-page/flexbox.pug', 
+      filename: 'flexbox.html',
+      minify: {
+        collapseWhitespace: true
+      }
+    }),
   ]
 });

@@ -9,6 +9,8 @@
 @import "../pug/pages/statistic-block/statistic-block.scss";
 @import "../pug/pages/block-services/block-services.scss";
 @import "../pug/footer/footer.scss";
+@import "../pug/pages/grid-page/grid.scss";
+@import "../pug/pages/flexbox-page/flexbox.scss";
 
 
 * {
@@ -44,4 +46,13 @@ a {
   display: flex;
   flex-direction: column;
   margin: auto;
+}
+
+.button {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 3px;
+  background: rgb(53, 191, 216);
+  color: $white;
+  text-transform: uppercase;
 }

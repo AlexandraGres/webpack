@@ -1,0 +1,121 @@
+.flexbox {
+  max-width: 1200px;
+  width: 100%;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+
+  & div {
+    margin-bottom: 15px;
+  }
+
+  &__block1 {
+    background: rgb(255, 243, 178);
+    height: 270px;
+  }
+
+  &__block2 {
+    background: rgb(255, 243, 178);
+    height: 270px;
+  }
+
+  &__block3 {
+    background: rgb(178, 255, 188);
+    height: 185px;
+  }
+
+  &__block4 {
+    background: rgb(178, 255, 188);
+    height: 185px;
+  }
+
+  &__block5 {
+    background: rgb(178, 255, 188);
+    height: 185px;
+  }
+
+  &__block6 {
+    background: rgb(178, 252, 255);
+    height: 485px;
+  }
+
+  &__block7 {
+    background: rgb(178, 202, 255);
+    height: 185px;
+  }
+
+  &__block8 {
+    background: rgb(178, 202, 255);
+    height: 185px;
+  }
+
+  &__block9 {
+    background: rgb(178, 202, 255);
+    height: 185px;
+  }
+
+  &__block10 {
+    background: rgb(211, 178, 255);
+    height: 270px;
+  }
+
+  &__block11 {
+    background: rgb(211, 178, 255);
+    height: 270px;
+  }
+
+  &__block12 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 150px;
+  }
+
+  &__block13 {
+    text-align: center;
+    height: 70px;
+
+    & h2 {
+      text-transform: uppercase;
+      font-size: 48px;
+    }
+  }
+
+  &__block14 {
+    background: rgb(255, 178, 191);
+    height: 450px;
+  }
+
+  &__block15 {
+    background: rgb(255, 178, 191);
+    height: 450px;
+  }
+
+  &__block16 {
+    background: rgb(255, 178, 191);
+    height: 450px;
+  }
+
+  &__block17 {
+    background: rgb(255, 178, 191);
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .flexbox {
+    & section {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    & div {
+      width: 100%;
+      margin: 0 8px 15px;
+    }
+  }
+  // .flexbox {
+  //   &__block1 {
+  //     width: 50%;
+  //   }
+  // }
+}
