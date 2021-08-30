@@ -32,6 +32,11 @@ module.exports = merge(common, {
       template: './pug/pages/flexbox-page/flexbox.pug',
       filename: 'flexbox.html',
       minify: false
+    }),
+    new HtmlWebpackPlugin({
+      template: './pug/pages/posts/posts.pug',
+      filename: 'posts.html',
+      minify: false
     })
   ],
   module: {

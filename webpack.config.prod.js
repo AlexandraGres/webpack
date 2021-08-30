@@ -36,5 +36,12 @@ module.exports = merge(common, {
         collapseWhitespace: true
       }
     }),
+    new HtmlWebpackPlugin({
+      template: './pug/pages/posts/posts.pug', 
+      filename: 'posts.html',
+      minify: {
+        collapseWhitespace: true
+      }
+    }),
   ]
 });

@@ -1,0 +1,29 @@
+extends ../../layout/main
+
+block variables 
+  - var pageClass = 'posts-page'
+  - var json = require('../../../../src/static-data/data.json') 
+  - var posts = json.sort(function (a, b) {
+    - return new Date(b.creationDate) - new Date(a.creationDate)
+  - })
+
+
+block content 
+  .container
+    .posts
+      each post, index in posts
+        div.post  
+          if index === 0
+            .new New  
+          h2= post.title
+          div.post__author 
+            span author: 
+            =post.author 
+          div.post__creation-date
+            span posted on: 
+            i= new Date(post.creationDate)
+          div.post__body
+            =post.body
+            
+  
+  
